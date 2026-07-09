@@ -226,7 +226,7 @@ Before writing any code, the Part 2 requirements were analysed and baked into th
 ### 8. What I Would Improve Given More Time
 
 - **Optimistic Locking** — Add `@Version` to prevent concurrent update conflicts
-- **Audit Log** — Track all status transitions with timestamp and actor
+- **Audit Log** — Track all status transitions with timestamp and actor, and persist cancellation reasons for compliance and debugging.
 - **Pagination Metadata** — Include `totalElements`, `totalPages`, `hasNext` in list responses
 - **API Versioning** — Use URI versioning (`/api/v1/orders`) for forward compatibility
 - **OpenAPI/Swagger** — Auto-generated API documentation
